@@ -76,6 +76,12 @@ Where the system struggles or behaves unfairly.
 How you checked whether the recommender behaved as expected. 
 
 
+Three user profiles were tested:
+
+- **High-Energy Pop** (genre: pop, mood: happy, energy: 0.9) — Results matched expectations well. Pop Confetti and Sunrise City ranked at the top with both genre and mood matches.
+- **Chill Lofi** (genre: lofi, mood: chill, energy: 0.35) — Strongest performance. Library Rain scored a perfect 4.0, and all top 3 results were lofi/chill songs.
+- **Deep Intense Rock** (genre: rock, mood: intense, energy: 0.95) — Worked well for the two rock songs available. Iron Riff scored a perfect 4.0, and Storm Runner followed closely behind.
+
 A weight shift experiment was also considered: doubling the energy weight and halving the genre weight would likely surface more cross-genre results based on vibe rather than category.
 
 ---
